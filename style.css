@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.NewsletterWrap {
+  width: 1440px;
+  height: 550px;
+  background-image: url(Background.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container {
+  width: 1128px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+.col-md-5 {
+  width: 257px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.user1photo {
+  width: 50px;
+  height: 50px;
+}
+.card-content .text {
+  color: #737373;
+  text-align: center;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.Frame2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div1 {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  gap: 15px;
+}
+.user1photo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #bdbdbd;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name {
+  color: #23a6f0;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.designer {
+  color: #252b42;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+line {
+  width: 2px;
+  height: 298px;
+  background: #ececec;
+}
+.col-md-6 {
+  width: 459px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.paragraph {
+  color: #8ec2f2;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.title {
+  color: #252b42;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
