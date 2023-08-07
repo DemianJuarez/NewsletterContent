@@ -18,7 +18,20 @@
   background-color: white;
   align-items: center;
 }
-.col-md-5 {
+.col-md-5{
+  display: flex;
+  width: 438px;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+.card-item{
+  display: flex;
+  padding: 30px 35px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card-content {
   width: 257px;
   display: flex;
   flex-direction: column;
@@ -119,4 +132,29 @@ line {
   font-weight: 700;
   line-height: 50px;
   letter-spacing: 0.2px;
+}
+.form-group {
+  display: flex;
+  width: 355px;
+  justify-content: center;
+  align-items: center;
+}
+.input-group {
+  width: 355px;
+  height: 58px;
+  padding: 0px 0px 0px 20px;
+  border-radius: 10px 0px 0px 10px;
+border: 1px solid #E6E6E6;
+background: #F9F9F9;
+}
+.button-group {
+  display: flex;
+  width: 117px;
+  height: 58px;
+  padding: 15px 22.5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #23A6F0;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
 }
